@@ -37,8 +37,9 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 0
+    patch: 1
   description: A plugin to add Google Tag Manager to a site
+  documentation: "https://raw.githubusercontent.com/craftercms/google-tag-manager-plugin/master/readme.md" 
   website:
     name: Google Tag Manager Plugin
     url: https://github.com/craftercms/google-tag-manager-plugin
