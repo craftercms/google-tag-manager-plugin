@@ -24,10 +24,10 @@
 
 <#macro ifGoogleTagManagerEnabled>
   <#-- Check if the plugin is enabled -->
-  <#if siteConfig.getBoolean('plugins.googleTagManager.enabled', !modePreview)>
+  <#if pluginConfig.getBoolean('enabled', !modePreview)>
     <#-- Check if the current item has the override property -->
     <#if (!(contentModel.disableGoogleTagManager_b)!false) >
-      <#assign id = siteConfig.getString('plugins.googleTagManager.id') />
+      <#assign id = pluginConfig.getString('id') />
       <#-- Execute the given markup -->
       <#nested/>
     </#if>
