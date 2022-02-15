@@ -1,39 +1,19 @@
-# Google Tag Manager Plugin for Crafter CMS
+# Google Tag Manager Plugin for CrafterCMS
 
 This is a plugin to add Google Tag Manager to your site.
 
 # Installation
 
-The plugin can be installed to your site from the Crafter CMS Marketplace
+The plugin can be installed to your site from the CrafterCMS Marketplace
 
 # Setup
 
-After the plugin has been installed you can enable it by adding the following snippet in your
-`Engine Site Configuration` file:
+The following parameters can be provided during the plugin installation:
 
-```xml
-<plugins>
-  <googleTagManager>
-    <enabled>...</enabled>
-    <id>GTM-XXXX</id>
-  </googleTagManager>
-</plugins>
-```
-
-# Configuration
-
-- `enabled`: Indicates if the Google Tag Manager plugin should be added to all pages, defaults to `false` if the site
+- `enabled`: Indicates if the Google Tag Manager plugin should be added to all pages, defaults to `false` in preview
 - `id`: The container id that starts with `GTM-`
 
-Example:
-
-```xml
-<plugins>
-  <googleTagManager>
-    <id>GTM-XXXX</id>
-  </googleTagManager>
-</plugins>
-```
+After installation the configuration can be updated from the Plugin Management section in Crafter Studio
 
 # Page Override
 

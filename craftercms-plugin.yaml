@@ -1,6 +1,6 @@
 # MIT License
 #
-# Copyright (c) 2018-2021 Crafter Software Corporation. All Rights Reserved.
+# Copyright (c) 2018-2022 Crafter Software Corporation. All Rights Reserved.
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -37,9 +37,9 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 2
+    patch: 3
   description: A plugin to add Google Tag Manager to a site
-  documentation: "https://raw.githubusercontent.com/craftercms/google-tag-manager-plugin/master/readme.md" 
+  documentation: "https://raw.githubusercontent.com/craftercms/google-tag-manager-plugin/master/readme.md"
   website:
     name: Google Tag Manager Plugin
     url: https://github.com/craftercms/google-tag-manager-plugin
@@ -50,12 +50,9 @@ plugin:
         url: https://raw.githubusercontent.com/craftercms/google-tag-manager-plugin/master/.crafter/cover.png
   developer:
     company:
-      name: Crafter Software
-      email: info@craftersoftware.com
-      url: https://craftersoftware.com
-  build:
-    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
-    date: 2021-07-12T00:00:00Z
+      name: CrafterCMS
+      email: info@craftercms.com
+      url: https://craftercms.com
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
